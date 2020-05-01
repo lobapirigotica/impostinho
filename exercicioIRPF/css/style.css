@@ -1,0 +1,178 @@
+*{
+	max-width:100%;
+	margin: 0;
+  	padding: 0;
+  	box-sizing: border-box;
+}
+
+@font-face{
+    font-family: sketch;
+    src: url(../fonts/sketch.otf)
+}
+
+@font-face{
+    font-family: topa;
+    src: url(../fonts/topa.otf)
+}
+
+@font-face{
+    font-family: bebas;
+    src: url(../fonts/bebas.otf)
+}
+@media only screen and (min-width: 801px){
+
+    body{
+        position: relative;
+        height: 50vw;
+        width: 100%;
+        background-color:#D3D3D3;
+    }
+    #titulo{
+        position: absolute;
+        top: 10vw;
+        text-align: center;
+        width: 55vw;
+        left: 22.5vw;
+        font-size: 8vw;
+    }
+    #formulario{
+        position: absolute;
+        top:35vw;
+        height: 20vw;
+        width: 35vw;
+        text-align: center;
+        left: 32.5vw;
+        
+        float: left;
+        background-color: #4682B4;
+        padding-top: 2vw;
+        border-radius: 10px;
+
+    }
+    #barra_nome{
+        position: absolute;
+        float: left;
+        color: darkblue;
+        left:15% ;
+        width: 70%;
+        text-align: center;
+        height: 4vw;
+        font-size: 3vw;
+        
+        
+    }
+    #barra_salario{
+        position: absolute;
+        float: left;
+        color: darkblue;
+        left:15% ;
+        width: 70%;
+        top: 7vw;
+        text-align: center;
+        height: 4vw;
+        font-size: 3vw;
+    }
+    #barra_enviar{
+        position: absolute;
+        float: left;
+        color: darkblue;
+        left:15% ;
+        width: 70%;
+        top: 14vw;
+        height: 4vw;
+        font-size: 3vw;
+    }
+    
+    #dados{
+        
+        position: absolute;
+        top:60vw;
+        height: ;
+        width: 35vw;
+        text-align: center;
+        left: 32.5vw;
+        border:1px solid black;
+        float: left;
+        color: black;
+        background-color: white;
+    }
+}
+@media only screen and (max-width: 800px){
+    body{
+        position: relative;
+        height: 50vw;
+        width: 100%;
+        background-color:#D3D3D3;
+    }
+    #titulo{
+        position: absolute;
+        top: 10vw;
+        text-align: center;
+        width: 55vw;
+        left: 22.5vw;
+        font-size: 8vw;
+    }
+    #formulario{
+        position: absolute;
+        top:35vw;
+        height: 24vw;
+        width: 35vw;
+        text-align: center;
+        left: 32.5vw;
+        
+        float: left;
+        background-color: #4682B4;
+        padding-top: 2vw;
+        border-radius: 10px;
+
+    }
+    #barra_nome{
+        position: absolute;
+        float: left;
+        color: darkblue;
+        left:15% ;
+        width: 70%;
+        text-align: center;
+        height: 4vw;
+        font-size: 3vw;
+        
+        
+    }
+    #barra_salario{
+        position: absolute;
+        float: left;
+        color: darkblue;
+        left:15% ;
+        width: 70%;
+        top: 10vw;
+        text-align: center;
+        height: 4vw;
+        font-size: 3vw;        
+    }
+    #barra_enviar{
+        position: absolute;
+        float: left;
+        color: darkblue;
+        left:15% ;
+        width: 70%;
+        top: 18vw;
+        height: 4vw;
+        font-size: 3vw;
+    }
+    
+    #dados{
+        
+        position: absolute;
+        top:80vw;
+        height: ;
+        width: 35vw;
+        text-align: center;
+        left: 32.5vw;
+        border:1px solid black;
+        float: left;
+        color: black;
+        background-color: white;
+        padding-bottom: 5vw;
+    }
+
+}
